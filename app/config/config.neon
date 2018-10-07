@@ -1,0 +1,23 @@
+parameters:
+
+application:
+	errorPresenter: Error
+	mapping:
+		*: App\*Module\Presenters\*Presenter
+
+session:
+	expiration: 14 days
+
+translation:
+	default: en
+	fallback: [en]
+
+services:
+	router: App\RouterFactory::createRouter
+
+	-
+		class: App\Components\ExampleModal\ExampleModal
+		implement: App\Components\ExampleModal\ExampleModalFactory
+
+extensions:
+	translation: Kdyby\Translation\DI\TranslationExtension

@@ -1,0 +1,27 @@
+{extends $modalTemplate}
+
+{block title}{$title}{/block}
+
+{block body}
+	<div>
+		<a n:href="reset!">Reset without ajax</a>
+	</div>
+	<div>
+		<a n:href="reset!" class="ajax">Reset with ajax</a>
+	</div>
+	<hr class="my-5">
+	<form n:name="form" class="ajax">
+		<div class="form-group">
+			{label title/}
+			{input title, class => 'form-control'}
+			<div class="invalid-feedback">{inputError title}</div>
+		</div>
+		<hr>
+		<div class="text-right">
+			{input cancel, class => 'btn'}
+			{input change, class => 'btn btn-primary'}
+		</div>
+	</form>
+{/block}
+
+{block footer}{/block}
