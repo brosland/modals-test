@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brosland/modals.git",
-                "reference": "d7b02ecfde1581bba7e192523dcb5b24fa7bd145"
+                "reference": "03d0e8bfa3c8174e8bed32d6d33bbb6a24ec6951"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brosland/modals/zipball/d7b02ecfde1581bba7e192523dcb5b24fa7bd145",
-                "reference": "d7b02ecfde1581bba7e192523dcb5b24fa7bd145",
+                "url": "https://api.github.com/repos/brosland/modals/zipball/03d0e8bfa3c8174e8bed32d6d33bbb6a24ec6951",
+                "reference": "03d0e8bfa3c8174e8bed32d6d33bbb6a24ec6951",
                 "shasum": ""
             },
             "require": {
@@ -52,25 +52,30 @@
         },
         {
             "name": "kdyby/strict-objects",
-            "version": "v1.0.0",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kdyby/StrictObjects.git",
-                "reference": "ff6c82b54d8bea0d3f43dc5fce890ebe126e95c7"
+                "reference": "b84177fbed12ca10c944acada8a841a764560e25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kdyby/StrictObjects/zipball/ff6c82b54d8bea0d3f43dc5fce890ebe126e95c7",
-                "reference": "ff6c82b54d8bea0d3f43dc5fce890ebe126e95c7",
+                "url": "https://api.github.com/repos/Kdyby/StrictObjects/zipball/b84177fbed12ca10c944acada8a841a764560e25",
+                "reference": "b84177fbed12ca10c944acada8a841a764560e25",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
                 "nette/tester": "~1.7"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Kdyby\\StrictObjects\\": "src/"
@@ -106,7 +111,7 @@
                 "scream",
                 "strict"
             ],
-            "time": "2016-08-26 06:34:41"
+            "time": "2018-08-15 15:02:02"
         },
         {
             "name": "kdyby/translation",
@@ -195,16 +200,16 @@
         },
         {
             "name": "latte/latte",
-            "version": "v2.4.8",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/latte.git",
-                "reference": "95ca6bab6caaa3efa3b5d7d4537f9a45cb89ed90"
+                "reference": "5fc71e3fed5d98dcfd4ad07d15c95d8ab04fa116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/latte/zipball/95ca6bab6caaa3efa3b5d7d4537f9a45cb89ed90",
-                "reference": "95ca6bab6caaa3efa3b5d7d4537f9a45cb89ed90",
+                "url": "https://api.github.com/repos/nette/latte/zipball/5fc71e3fed5d98dcfd4ad07d15c95d8ab04fa116",
+                "reference": "5fc71e3fed5d98dcfd4ad07d15c95d8ab04fa116",
                 "shasum": ""
             },
             "require": {
@@ -263,20 +268,20 @@
                 "template",
                 "twig"
             ],
-            "time": "2018-06-03 17:34:15"
+            "time": "2018-09-13 01:25:58"
         },
         {
             "name": "nette/application",
-            "version": "v2.4.12",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/application.git",
-                "reference": "fe1915f880d8e5d16217bad467950733fd5cbad3"
+                "reference": "8887e9667c3d4139bb697308839afe0867f07b36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/application/zipball/fe1915f880d8e5d16217bad467950733fd5cbad3",
-                "reference": "fe1915f880d8e5d16217bad467950733fd5cbad3",
+                "url": "https://api.github.com/repos/nette/application/zipball/8887e9667c3d4139bb697308839afe0867f07b36",
+                "reference": "8887e9667c3d4139bb697308839afe0867f07b36",
                 "shasum": ""
             },
             "require": {
@@ -350,20 +355,20 @@
                 "routing",
                 "seo"
             ],
-            "time": "2018-05-16 09:28:51"
+            "time": "2018-09-13 01:24:45"
         },
         {
             "name": "nette/bootstrap",
-            "version": "v2.4.6",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/bootstrap.git",
-                "reference": "268816e3f1bb7426c3a4ceec2bd38a036b532543"
+                "reference": "c0c09cf8d4778b5877754ec5b351d9c201c40e8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/bootstrap/zipball/268816e3f1bb7426c3a4ceec2bd38a036b532543",
-                "reference": "268816e3f1bb7426c3a4ceec2bd38a036b532543",
+                "url": "https://api.github.com/repos/nette/bootstrap/zipball/c0c09cf8d4778b5877754ec5b351d9c201c40e8f",
+                "reference": "c0c09cf8d4778b5877754ec5b351d9c201c40e8f",
                 "shasum": ""
             },
             "require": {
@@ -426,20 +431,20 @@
                 "configurator",
                 "nette"
             ],
-            "time": "2018-05-17 12:52:20"
+            "time": "2018-09-13 01:24:52"
         },
         {
             "name": "nette/caching",
-            "version": "v2.5.8",
+            "version": "v2.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/caching.git",
-                "reference": "7fba7c7ab2585fafb7b31152f2595e1551120555"
+                "reference": "c53cc290826ec3482a0d0c4806d51a93a793067f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/caching/zipball/7fba7c7ab2585fafb7b31152f2595e1551120555",
-                "reference": "7fba7c7ab2585fafb7b31152f2595e1551120555",
+                "url": "https://api.github.com/repos/nette/caching/zipball/c53cc290826ec3482a0d0c4806d51a93a793067f",
+                "reference": "c53cc290826ec3482a0d0c4806d51a93a793067f",
                 "shasum": ""
             },
             "require": {
@@ -495,20 +500,20 @@
                 "nette",
                 "sqlite"
             ],
-            "time": "2018-03-21 11:04:32"
+            "time": "2018-09-13 01:24:59"
         },
         {
             "name": "nette/component-model",
-            "version": "v2.4.0",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/component-model.git",
-                "reference": "6e7980f5ddec31f68a39e767799b1b0be9dd1014"
+                "reference": "182d901f4d0b71e83ded700202d2fa4d0084610a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/component-model/zipball/6e7980f5ddec31f68a39e767799b1b0be9dd1014",
-                "reference": "6e7980f5ddec31f68a39e767799b1b0be9dd1014",
+                "url": "https://api.github.com/repos/nette/component-model/zipball/182d901f4d0b71e83ded700202d2fa4d0084610a",
+                "reference": "182d901f4d0b71e83ded700202d2fa4d0084610a",
                 "shasum": ""
             },
             "require": {
@@ -556,20 +561,20 @@
                 "components",
                 "nette"
             ],
-            "time": "2018-03-20 16:32:50"
+            "time": "2018-09-13 01:25:09"
         },
         {
             "name": "nette/database",
-            "version": "v2.4.6",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/database.git",
-                "reference": "b094b7ae07daa7d4c188168f78b15eb2f4f27212"
+                "reference": "a559a7670ad26c8ab6ba77ef31585f6c5c1a89d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/database/zipball/b094b7ae07daa7d4c188168f78b15eb2f4f27212",
-                "reference": "b094b7ae07daa7d4c188168f78b15eb2f4f27212",
+                "url": "https://api.github.com/repos/nette/database/zipball/a559a7670ad26c8ab6ba77ef31585f6c5c1a89d5",
+                "reference": "a559a7670ad26c8ab6ba77ef31585f6c5c1a89d5",
                 "shasum": ""
             },
             "require": {
@@ -628,11 +633,11 @@
                 "queries",
                 "sqlite"
             ],
-            "time": "2018-06-01 15:50:27"
+            "time": "2018-10-01 08:54:43"
         },
         {
             "name": "nette/di",
-            "version": "v2.4.14",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/di.git",
@@ -701,16 +706,16 @@
         },
         {
             "name": "nette/finder",
-            "version": "v2.4.2",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/finder.git",
-                "reference": "ee951a656cb8ac622e5dd33474a01fd2470505a0"
+                "reference": "b010503b354f1a2aea0a29875757fe837f9146a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/finder/zipball/ee951a656cb8ac622e5dd33474a01fd2470505a0",
-                "reference": "ee951a656cb8ac622e5dd33474a01fd2470505a0",
+                "url": "https://api.github.com/repos/nette/finder/zipball/b010503b354f1a2aea0a29875757fe837f9146a6",
+                "reference": "b010503b354f1a2aea0a29875757fe837f9146a6",
                 "shasum": ""
             },
             "require": {
@@ -759,20 +764,20 @@
                 "iterator",
                 "nette"
             ],
-            "time": "2018-06-28 11:49:23"
+            "time": "2018-09-13 01:25:34"
         },
         {
             "name": "nette/forms",
-            "version": "v2.4.9",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/forms.git",
-                "reference": "787a924d09f507c44ead60f3822c31d61d909b65"
+                "reference": "f6786cf62eec3c63adf5feee8121e108d5136a69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/forms/zipball/787a924d09f507c44ead60f3822c31d61d909b65",
-                "reference": "787a924d09f507c44ead60f3822c31d61d909b65",
+                "url": "https://api.github.com/repos/nette/forms/zipball/f6786cf62eec3c63adf5feee8121e108d5136a69",
+                "reference": "f6786cf62eec3c63adf5feee8121e108d5136a69",
                 "shasum": ""
             },
             "require": {
@@ -827,20 +832,20 @@
                 "nette",
                 "validation"
             ],
-            "time": "2018-09-16 18:32:29"
+            "time": "2018-09-30 16:06:22"
         },
         {
             "name": "nette/http",
-            "version": "v2.4.10",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/http.git",
-                "reference": "a36e6bad0aae8bacf849c150b5e0ecacef0d9eca"
+                "reference": "b734f5fa2436a2d18cc83f36116890dee10034e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/http/zipball/a36e6bad0aae8bacf849c150b5e0ecacef0d9eca",
-                "reference": "a36e6bad0aae8bacf849c150b5e0ecacef0d9eca",
+                "url": "https://api.github.com/repos/nette/http/zipball/b734f5fa2436a2d18cc83f36116890dee10034e4",
+                "reference": "b734f5fa2436a2d18cc83f36116890dee10034e4",
                 "shasum": ""
             },
             "require": {
@@ -899,20 +904,20 @@
                 "session",
                 "url"
             ],
-            "time": "2018-09-03 19:16:55"
+            "time": "2018-09-13 01:25:50"
         },
         {
             "name": "nette/mail",
-            "version": "v2.4.5",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/mail.git",
-                "reference": "13312eb627d913f2630018a07a9e40cb7003dc76"
+                "reference": "d054cd8406fd530c4cce02a3a76a1776b592727f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/mail/zipball/13312eb627d913f2630018a07a9e40cb7003dc76",
-                "reference": "13312eb627d913f2630018a07a9e40cb7003dc76",
+                "url": "https://api.github.com/repos/nette/mail/zipball/d054cd8406fd530c4cce02a3a76a1776b592727f",
+                "reference": "d054cd8406fd530c4cce02a3a76a1776b592727f",
                 "shasum": ""
             },
             "require": {
@@ -967,20 +972,20 @@
                 "nette",
                 "smtp"
             ],
-            "time": "2018-03-18 16:30:02"
+            "time": "2018-09-17 10:37:13"
         },
         {
             "name": "nette/neon",
-            "version": "v2.4.3",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/neon.git",
-                "reference": "5e72b1dd3e2d34f0863c5561139a19df6a1ef398"
+                "reference": "0137594de459a2a86eb729d9327e336f64fea491"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/neon/zipball/5e72b1dd3e2d34f0863c5561139a19df6a1ef398",
-                "reference": "5e72b1dd3e2d34f0863c5561139a19df6a1ef398",
+                "url": "https://api.github.com/repos/nette/neon/zipball/0137594de459a2a86eb729d9327e336f64fea491",
+                "reference": "0137594de459a2a86eb729d9327e336f64fea491",
                 "shasum": ""
             },
             "require": {
@@ -1028,20 +1033,20 @@
                 "nette",
                 "yaml"
             ],
-            "time": "2018-03-21 12:12:21"
+            "time": "2018-09-13 01:26:12"
         },
         {
             "name": "nette/php-generator",
-            "version": "v3.0.5",
+            "version": "v3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
-                "reference": "ea90209c2e8a7cd087b2742ca553c047a8df5eff"
+                "reference": "59cf9107d9170c32533e6a6d984af334fdbbc8f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/ea90209c2e8a7cd087b2742ca553c047a8df5eff",
-                "reference": "ea90209c2e8a7cd087b2742ca553c047a8df5eff",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/59cf9107d9170c32533e6a6d984af334fdbbc8f5",
+                "reference": "59cf9107d9170c32533e6a6d984af334fdbbc8f5",
                 "shasum": ""
             },
             "require": {
@@ -1090,20 +1095,20 @@
                 "php",
                 "scaffolding"
             ],
-            "time": "2018-08-09 14:32:27"
+            "time": "2018-08-29 12:25:10"
         },
         {
             "name": "nette/reflection",
-            "version": "v2.4.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/reflection.git",
-                "reference": "b12327e98ead74e87a1315e0d48182a702adf901"
+                "reference": "521398d1919157e9bb360981648e1c1770044a9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/reflection/zipball/b12327e98ead74e87a1315e0d48182a702adf901",
-                "reference": "b12327e98ead74e87a1315e0d48182a702adf901",
+                "url": "https://api.github.com/repos/nette/reflection/zipball/521398d1919157e9bb360981648e1c1770044a9b",
+                "reference": "521398d1919157e9bb360981648e1c1770044a9b",
                 "shasum": ""
             },
             "require": {
@@ -1154,20 +1159,20 @@
                 "nette",
                 "reflection"
             ],
-            "time": "2017-07-11 19:28:57"
+            "time": "2018-09-13 01:22:55"
         },
         {
             "name": "nette/robot-loader",
-            "version": "v3.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/robot-loader.git",
-                "reference": "fc76c70e740b10f091e502b2e393d0be912f38d4"
+                "reference": "943336a02a7354ab273bb52740ad0d0426b50e5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/robot-loader/zipball/fc76c70e740b10f091e502b2e393d0be912f38d4",
-                "reference": "fc76c70e740b10f091e502b2e393d0be912f38d4",
+                "url": "https://api.github.com/repos/nette/robot-loader/zipball/943336a02a7354ab273bb52740ad0d0426b50e5d",
+                "reference": "943336a02a7354ab273bb52740ad0d0426b50e5d",
                 "shasum": ""
             },
             "require": {
@@ -1219,20 +1224,20 @@
                 "nette",
                 "trait"
             ],
-            "time": "2018-08-13 14:19:06"
+            "time": "2018-09-13 01:21:04"
         },
         {
             "name": "nette/security",
-            "version": "v2.4.3",
+            "version": "v2.4.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/security.git",
-                "reference": "9b60f156626394f859a42a04dfbdcbe59095a37c"
+                "reference": "2cc497befedca5bf09c32d79224770601212e6c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/security/zipball/9b60f156626394f859a42a04dfbdcbe59095a37c",
-                "reference": "9b60f156626394f859a42a04dfbdcbe59095a37c",
+                "url": "https://api.github.com/repos/nette/security/zipball/2cc497befedca5bf09c32d79224770601212e6c8",
+                "reference": "2cc497befedca5bf09c32d79224770601212e6c8",
                 "shasum": ""
             },
             "require": {
@@ -1283,11 +1288,11 @@
                 "authorization",
                 "nette"
             ],
-            "time": "2018-04-02 19:47:47"
+            "time": "2018-09-13 01:26:39"
         },
         {
             "name": "nette/utils",
-            "version": "v2.5.3",
+            "version": "v2.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
@@ -1369,16 +1374,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
                 "shasum": ""
             },
             "require": {
@@ -1412,20 +1417,20 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2018-04-03 15:59:15"
         },
         {
             "name": "symfony/config",
-            "version": "v4.1.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "b3d4d7b567d7a49e6dfafb6d4760abc921177c96"
+                "reference": "1dcdcb9f6c743eda02e53f1c3d0f6a0ead4e6fc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/b3d4d7b567d7a49e6dfafb6d4760abc921177c96",
-                "reference": "b3d4d7b567d7a49e6dfafb6d4760abc921177c96",
+                "url": "https://api.github.com/repos/symfony/config/zipball/1dcdcb9f6c743eda02e53f1c3d0f6a0ead4e6fc2",
+                "reference": "1dcdcb9f6c743eda02e53f1c3d0f6a0ead4e6fc2",
                 "shasum": ""
             },
             "require": {
@@ -1448,7 +1453,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -1475,20 +1480,88 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2018-09-08 13:24:10"
+            "time": "2018-09-24 07:37:12"
         },
         {
-            "name": "symfony/filesystem",
-            "version": "v4.1.6",
+            "name": "symfony/contracts",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/filesystem.git",
-                "reference": "596d12b40624055c300c8b619755b748ca5cf0b5"
+                "url": "https://github.com/symfony/contracts.git",
+                "reference": "7e5e15779910215bb39b4288c479fb62eb42e894"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/596d12b40624055c300c8b619755b748ca5cf0b5",
-                "reference": "596d12b40624055c300c8b619755b748ca5cf0b5",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/7e5e15779910215bb39b4288c479fb62eb42e894",
+                "reference": "7e5e15779910215bb39b4288c479fb62eb42e894",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "psr/cache": "^1.0",
+                "psr/container": "^1.0"
+            },
+            "suggest": {
+                "psr/cache": "When using the Cache contracts",
+                "psr/container": "When using the Service contracts",
+                "symfony/cache-contracts-implementation": "",
+                "symfony/service-contracts-implementation": "",
+                "symfony/translation-contracts-implementation": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Contracts\\": ""
+                },
+                "exclude-from-classmap": [
+                    "**/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A set of abstractions extracted out of the Symfony components",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "abstractions",
+                "contracts",
+                "decoupling",
+                "interfaces",
+                "interoperability",
+                "standards"
+            ],
+            "time": "2018-10-06 16:22:22"
+        },
+        {
+            "name": "symfony/filesystem",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/filesystem.git",
+                "reference": "7bbf37363ecd0505c6fa90a1087c97df7b150255"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/7bbf37363ecd0505c6fa90a1087c97df7b150255",
+                "reference": "7bbf37363ecd0505c6fa90a1087c97df7b150255",
                 "shasum": ""
             },
             "require": {
@@ -1498,7 +1571,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -1525,11 +1598,11 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-02 12:40:59"
+            "time": "2018-10-02 12:43:31"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.9.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -1587,16 +1660,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.9.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
                 "shasum": ""
             },
             "require": {
@@ -1642,30 +1715,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06 14:22:27"
+            "time": "2018-09-21 13:07:52"
         },
         {
             "name": "symfony/translation",
-            "version": "v4.1.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "9f0b61e339160a466ebcde167a6c5521c810e304"
+                "reference": "805ed11f0712f714433772a0f505626842af0beb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/9f0b61e339160a466ebcde167a6c5521c810e304",
-                "reference": "9f0b61e339160a466ebcde167a6c5521c810e304",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/805ed11f0712f714433772a0f505626842af0beb",
+                "reference": "805ed11f0712f714433772a0f505626842af0beb",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3",
+                "symfony/contracts": "^1.0",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "conflict": {
                 "symfony/config": "<3.4",
                 "symfony/dependency-injection": "<3.4",
                 "symfony/yaml": "<3.4"
+            },
+            "provide": {
+                "symfony/translation-contracts-implementation": "1.0"
             },
             "require-dev": {
                 "psr/log": "~1.0",
@@ -1684,7 +1761,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.1-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -1711,20 +1788,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-10-02 16:36:10"
+            "time": "2018-10-06 16:22:22"
         },
         {
             "name": "tracy/tracy",
-            "version": "v2.5.3",
+            "version": "v2.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tracy.git",
-                "reference": "7f670b08a7f4ed0243373f9d003d139196273861"
+                "reference": "6c74f38100252563a9005e59e264dbc1808407b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tracy/zipball/7f670b08a7f4ed0243373f9d003d139196273861",
-                "reference": "7f670b08a7f4ed0243373f9d003d139196273861",
+                "url": "https://api.github.com/repos/nette/tracy/zipball/6c74f38100252563a9005e59e264dbc1808407b6",
+                "reference": "6c74f38100252563a9005e59e264dbc1808407b6",
                 "shasum": ""
             },
             "require": {
@@ -1777,26 +1854,26 @@
                 "nette",
                 "profiler"
             ],
-            "time": "2018-09-24 22:35:07"
+            "time": "2018-10-03 11:56:17"
         }
     ],
     "packages-dev": [
         {
             "name": "nette/tester",
-            "version": "v2.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tester.git",
-                "reference": "3f273cf0ef82939e5ed07baaa5cf21ea6f657fc2"
+                "reference": "2c04b766aa185f6e8ce93a6bef41c222383b6886"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tester/zipball/3f273cf0ef82939e5ed07baaa5cf21ea6f657fc2",
-                "reference": "3f273cf0ef82939e5ed07baaa5cf21ea6f657fc2",
+                "url": "https://api.github.com/repos/nette/tester/zipball/2c04b766aa185f6e8ce93a6bef41c222383b6886",
+                "reference": "2c04b766aa185f6e8ce93a6bef41c222383b6886",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.6.0"
+                "php": ">=7.1"
             },
             "bin": [
                 "src/tester"
@@ -1804,7 +1881,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -1841,7 +1918,7 @@
                 "testing",
                 "unit"
             ],
-            "time": "2018-06-07 11:24:40"
+            "time": "2018-10-05 17:49:19"
         }
     ],
     "aliases": [],
